@@ -55,8 +55,9 @@ This is a JPG picture to brand the ISP configuration experience with. The client
 
 <!-- ServiceHome: Optional
 This is a link to the ISP’s Home Page. The client can choose whether or not they expose this link to the user. (not used by Outlook 2007)
--->
+--><!--
 <ServiceHome>%INFO/URL%</ServiceHome>
+-->
 
 <!-- Protocol: Required if ACTION tag has value of 'settings'. Otherwise, this tag must not exist.
 The tag encloses the specifications for a single account type.  The list of Protocol tags are in order of preference of the server.  The client may over ride the preference.
@@ -104,8 +105,9 @@ This value specifies the user's login.  If no value is specified, the default wi
 
 <!-- DomainRequired: Optional.  Default is off.
 If this value is true, then a domain is required during authentication.  If the domain is not specified in the LOGINNAME tag, or the LOGINNAME tag was not specified, the user will need to enter the domain before authentication will succeed.
--->
+--><!--
 <DomainRequired>%SERVER/IMAP/DOMAIN_REQUIRED%</DomainRequired>
+-->
 
 <!-- DomainName: Optional.
 This value specifies the user's domain. If no value is specified, the default authentication will be to use the e-mail address as a UPN format <Username>@<Domain>. Such as JoeUser@SalesDomain.

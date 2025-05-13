@@ -1,4 +1,5 @@
 Options -Indexes
+DirectoryIndex autodiscover.xml.php
 RewriteEngine On
 RewriteBase /
 
